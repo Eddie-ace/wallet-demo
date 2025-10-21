@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wallet Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wallet-container">
+    <h2>My Wallet</h2>
+    <p id="balance">Balance: $<span>150.00</span></p>
+    <div class="buttons">
+      <button onclick="sendMoney()">Send</button>
+      <button onclick="receiveMoney()">Receive</button>
+    </div>
+    <h3>Transaction History</h3>
+    <ul id="transactions"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
